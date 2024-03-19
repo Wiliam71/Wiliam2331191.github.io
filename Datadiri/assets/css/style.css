@@ -474,7 +474,7 @@ section {
 /*--------------------------------------------------------------
 # Special Photo
 --------------------------------------------------------------*/
-.Detailhobi.resume-title {
+.resume .resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
@@ -482,14 +482,14 @@ section {
   color: #050d18;
 }
 
-.Detailhobi.resume-item {
+.resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid #1f5297;
   position: relative;
 }
 
-.Detailhobi.resume-item h4 {
+.resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -499,7 +499,7 @@ section {
   margin-bottom: 10px;
 }
 
-.Detailhobi.resume-item h5 {
+.resume .resume-item h5 {
   font-size: 16px;
   background: #e4edf9;
   padding: 5px 15px;
@@ -508,19 +508,19 @@ section {
   margin-bottom: 10px;
 }
 
-.Detailhobi.resume-item ul {
+.resume .resume-item ul {
   padding-left: 20px;
 }
 
-.Detailhobi.resume-item ul li {
+.resume .resume-item ul li {
   padding-bottom: 10px;
 }
 
-.Detailhobi.resume-item:last-child {
+.resume .resume-item:last-child {
   padding-bottom: 0;
 }
 
-.Detailhobi.resume-item::before {
+.resume .resume-item::before {
   content: "";
   position: absolute;
   width: 16px;
