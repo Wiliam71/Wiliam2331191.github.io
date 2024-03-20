@@ -577,7 +577,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="button" onclick="berhasil()" class="btn btn-success">Send Message</button></div>
             </form>
           </div>
 
@@ -616,6 +616,27 @@
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script>
+
+
+    function berhasil() {
+      if(document.getElementById("email").value==""){
+        Swal.fire({
+        title: "Warning",
+        text: "Email Tidak Boleh Kosong",
+        icon: "warning"
+      })
+
+      } else{
+        Swal.fire({
+        title: "Berhasil",
+        text: "Email Berhasil terkirim",
+        icon: "success"
+      })}
+    }
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
